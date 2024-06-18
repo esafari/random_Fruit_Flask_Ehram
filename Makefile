@@ -3,10 +3,10 @@ install:
 		pip install -r requirements.txt
 
 lint:
-	pylint --disable=R,C,W1203,W0702 app.py
+	pylint --disable=R,C app.py
 
 test:
-	python -m pytest -vv --cov=app test_app.py
+	python3 -m pytest -vv --cov=app.py test_app.py
 
 format:
 	black *.py
