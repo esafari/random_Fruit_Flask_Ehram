@@ -6,7 +6,7 @@ lint:
 	pylint --disable=R,C app.py
 
 test:
-	python3 -m pytest -vv --cov=app.py test_app.py
+	pytest -vv --cov=app.py test_app.py
 
 format:
 	black *.py
