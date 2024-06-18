@@ -1,5 +1,5 @@
 install:
-	pip install --upgrade pip &&\
+	pip install --upgrade &&\
                 rm -rf venv &&\
                python3 -m venv venv &&\
                source venv/bin/activate &&\
