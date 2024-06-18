@@ -9,6 +9,6 @@ test:
 	pytest -vv --cov=app.py test_app.py
 
 format:
-	black *.py
+	
 
 all: install lint test format
